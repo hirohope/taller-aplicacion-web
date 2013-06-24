@@ -103,7 +103,7 @@ Ver información de la base de datos llamada DATABASE:
 	
 	heroku pg:credentials DATABASE
 
-Modificamos la variable DATABASE en el archivo `microblog/\_\_init\_\_.py`
+Modificamos la variable DATABASE en el archivo `microblog/__init__.py`
 
 Debemos inicializar la base de datos, eso lo hacemos abriendo la terminal de python y ejecutando los siguientes comandos
 
