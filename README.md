@@ -96,9 +96,10 @@ Ver información de la base de datos llamada DATABASE:
 Modificamos la variable DATABASE en el archivo microblog/\_\_init\_\_.py
 
 Debemos inicializar la base de datos, eso lo hacemos abriendo la terminal de python y ejecutando los siguientes comandos
-		python
-		\>\>\> from microblog.database import init_db
-		\>\>\> init_db()
+
+`python
+\>\>\> from microblog.database import init_db
+\>\>\> init_db()`
 
 
 Subimos todo a heroku con 
