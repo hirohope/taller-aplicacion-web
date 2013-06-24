@@ -14,13 +14,13 @@ Correr ejemplo
 	
 	python ejemplo1/hello.py
 
-Entrar a ver la aplicación en [http://localhost:5000]
+Entrar a ver la aplicación en [http://localhost:5000](http://localhost:5000)
 
 Para el segundo ejemplo correrlo con
 
 	python ejemplo2/hello2.py
 
-y entrar a [http://localhost:5000 para verla.]
+y entrar a [http://localhost:5000](http://localhost:5000) para verla.
 
 
 Ejemplo de aplicación web en Flask
