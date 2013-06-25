@@ -111,6 +111,9 @@ Debemos inicializar la base de datos, eso lo hacemos abriendo la terminal de pyt
 	>>> from microblog.database import init_db
 	>>> init_db()
 
+No olvidemos hacer commit, ya que cambiamos la variable de la base de datos
+	
+	git commit -am 'url de la base de datos'
 
 Subimos todo a heroku con 
 
