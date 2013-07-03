@@ -13,7 +13,7 @@ def index():
 @app.route('/chat', methods=['POST'])
 def chat():
 	if request.method == 'POST':
-		chatList.insert(0,(datetime.datetime.now()[], request.form['name'], request.form['comment']))
+		chatList.insert(0,(datetime.datetime.now(), request.form['name'], request.form['comment']))
 		print chatList
 		return redirect('/')
 

@@ -13,12 +13,11 @@ def hello():
 from flask import request
 @app.route('/goodbye')
 def goodBye():
-	return 'Good Bye, {}'.format(request.args['name'])
+	return 'Good Bye, %s' % (request.args['name'])
 
 @app.route('/hello/<name>')
 def helloName(name="Nobody"):
-	return 'Hello, {}'.format(name)
-
+	return 'Hello, %s' % name
 
 if __name__ == "__main__":
 	app.debug = True
